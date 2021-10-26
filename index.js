@@ -73,7 +73,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/hello", (req, res) => {
- console.log("Hello updated Here");
+ res.send("hello server");
 });
 
 app.listen(port, () => {
